@@ -1,0 +1,29 @@
+@import url(../place/place__title.css);
+@import url(../place/place__image.css);
+@import url(../place/place__paragraph.css);
+@import url(../place/place__website.css);
+.place {
+    display: grid;
+    grid-template-columns: 1fr 0.95fr;
+    grid-template-rows: min-content min-content;
+    grid-gap: 48px 40px;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 80px;
+}
+.place:last-of-type {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-gap: 48px 32px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 32px;
+        margin-bottom: 48px;
+    }
+}

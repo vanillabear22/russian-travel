@@ -1,0 +1,13 @@
+.place__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5.4em;
+    line-height: 1.06;
+    max-height: 100%;
+    margin: 0;
+}
+@media screen and (max-width: 1024px) {
+    .place__title {
+        font-size: 3.7em;
+    }
+}
