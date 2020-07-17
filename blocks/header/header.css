@@ -1,7 +1,7 @@
-@import url(../header/header__logo.css);
-@import url(../header/header__languages.css);
-@import url(../header/header__lang-link.css);
-@import url(../header/header__lang-link_active.css);
+@import url(../header/__logo/header__logo.css);
+@import url(../header/__languages/header__languages.css);
+@import url(../header/__lang-link/header__lang-link.css);
+@import url(../header/__lang-link/header__lang-link_active.css);
 
 
 .header {

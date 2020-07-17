@@ -1,7 +1,9 @@
-@import url(../place/place__title.css);
-@import url(../place/place__image.css);
-@import url(../place/place__paragraph.css);
-@import url(../place/place__website.css);
+@import url(../place/__title/place__title.css);
+@import url(../place/__image/place__image.css);
+@import url(../place/__paragraph/place__paragraph.css);
+@import url(../place/__website/place__website.css);
+@import url(../place/__website-link/place__website-link.css);
+@import url(../place/__website-paragraph/place__website-paragraph.css);
 .place {
     display: grid;
     grid-template-columns: 1fr 0.95fr;

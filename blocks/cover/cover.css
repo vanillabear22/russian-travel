@@ -1,11 +1,11 @@
-@import url(../cover/cover__title.css);
-@import url(../cover/cover__subtitle.css);
-@import url(../cover/cover__background.css);
+@import url(../cover/__title/cover__title.css);
+@import url(../cover/__subtitle/cover__subtitle.css);
+@import url(../cover/__background/cover__background.css);
+@import url(../cover/__overlay/cover__overlay.css);
 .cover {
-    margin: 92px 48px 92px;
-    max-width: auto;
-    position: relative;
-    color: #FFFFFF;
+    width: auto;
+    margin: 92px 48px;
+    box-sizing: content-box;   
 }
 @media screen and (max-width: 1279px) {
     .cover {

@@ -1,6 +1,6 @@
-@import url(../intro/intro__title.css);
-@import url(../intro/intro__list.css);
-@import url(../intro/intro__text.css);
+@import url(../intro/__title/intro__title.css);
+@import url(../intro/__list/intro__list.css);
+@import url(../intro/__text/intro__text.css);
 .intro {
     margin-top: 92px;
     margin-left: 10%;

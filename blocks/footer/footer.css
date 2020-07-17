@@ -1,6 +1,6 @@
-@import url(../footer/footer__nav.css);
-@import url(../footer/footer__link.css);
-@import url(../footer/footer__copyright.css);
+@import url(../footer/__nav/footer__nav.css);
+@import url(../footer/__link/footer__link.css);
+@import url(../footer/__copyright/footer__copyright.css);
 .footer {
     margin: 0 48px;
     padding-bottom: 24px;
