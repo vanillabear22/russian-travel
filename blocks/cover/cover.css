@@ -3,10 +3,16 @@
 @import url(../cover/__background/cover__background.css);
 @import url(../cover/__overlay/cover__overlay.css);
 .cover {
-    width: auto;
+    width: auto; 
     margin: 92px 48px;
-    box-sizing: content-box;   
+    ;
+    box-sizing: border-box;
+    
 }
+
+
+
+
 @media screen and (max-width: 1279px) {
     .cover {
         margin: 92px 0;

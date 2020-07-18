@@ -1,22 +1,30 @@
 @import url(../intro/__title/intro__title.css);
 @import url(../intro/__list/intro__list.css);
 @import url(../intro/__text/intro__text.css);
+@import url(../intro/__list-value/intro__list-value.css);
 .intro {
     margin-top: 92px;
     margin-left: 10%;
     max-width: 690px;
     color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 1279px) {
+    .intro {
+        width: 690px; /* В МАКЕТЕ же вроде 690px так же ширина как и на 1240 */
+    }
+}
 @media screen and (max-width: 1023px) {
     .intro {
-        min-width: calc(100vw - 48px);
+        max-width: calc(100vw - 48px);
         margin: 88px auto 0;
         
     }
 }
 @media screen and (max-width: 767px) {
     .intro {
-        min-width: calc(100vw - 32px);
+        max-width: calc(100vw - 32px);
         margin: 64px auto 0;
         
     }

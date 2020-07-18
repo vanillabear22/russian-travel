@@ -1,0 +1,6 @@
+.place__paragraph-element {
+    margin: 0;
+}
+.place__paragraph-element:first-of-type {
+    margin-top: 0;
+}

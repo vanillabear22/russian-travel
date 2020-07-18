@@ -10,10 +10,11 @@
   <meta name="keywords" content="html, css, Travel, Russia">
   <meta name="author" content="DK">
 </head>
-<body>
+<body class="body">
+  <main>
     <div class="page">
       <header class="header">
-        <img class="header__logo" src="./images/header-logo.svg">
+        <img class="header__logo" src="./images/header-logo.svg" alt="header-logo">
         <nav class="header__languages">
           <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
           <a class="header__lang-link" href="#">En</a>
@@ -23,7 +24,7 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <h3 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h3>
-        <img src="./images/lead-polka.jpg" class="lead__image">
+        <img src="./images/lead-polka.jpg" class="lead__image" alt="lead-polka">
         <p class="lead__caption">ваша полка-верхняя</p>
       </section>
 
@@ -31,27 +32,27 @@
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <a class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</a>
         <ul class="intro__list">
-          <li>Часовых поясов <span>11</span></li>
-          <li>Объектов природного наследия ЮНЕСКО <span>12</span></li>
-          <li>Объектов культурного наследия ЮНЕСКО <span>16</span></li>
-          <li>Природных заповедников <span>105</span></li>
-          <li>Аэропортов 241</li>
+          <li>Часовых поясов <span class="intro__list-value"> 11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-value"> 12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-value"> 16</span></li>
+          <li>Природных заповедников <span class="intro__list-value"> 105</span></li>
+          <li>Аэропортов<span class="intro__list-value"> 241</span></li>
         </ul>
       </section>
       
       <section class="photo-grid">
         <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="arisa">
-        <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="arisa">
-        <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="arisa">
-        <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="arisa">
-        <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="arisa">
-        <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="arisa">
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="arisa">
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="arisa">
-        <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="arisa">
-        <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="arisa">
-        <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="arisa">
-        <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="arisa">
+        <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="photo-grid-atharva-tulsi">
+        <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="photo-grid-baikal-2">
+        <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="photo-grid-baikal">
+        <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="photo-grid-elbrus">
+        <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="photo-grid-ergaki">
+        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="photo-grid-kamchatka-1">
+        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="photo-grid-kamchatka-2">
+        <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="photo-grid-kondratiev">
+        <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="photo-grid-sochi">
+        <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="train">
+        <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="photo-grid-tuman">
       </section>
 
       <section class="places">
@@ -64,7 +65,7 @@
           </div>
           <img class="place__image" src="./images/place-kosa.jpg" alt="kosa">
           <div class="place__paragraph">
-            <p>Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
+            <p class="place__paragraph-element">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
             <p>На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
           </div>
         </div>
@@ -77,7 +78,7 @@
           </div>
           <img class="place__image" src="./images/place-kolsky.jpg" alt="klosky">
           <div class="place__paragraph">
-            <p>Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — 
+            <p class="place__paragraph-element">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — 
               тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
             <p>Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
               в Мурманск.</p>
@@ -92,7 +93,7 @@
           </div>
           <img class="place__image" src="./images/place-altai.jpg" alt="altai">
           <div class="place__paragraph">
-            <p>Алтай — одно из красивейших мест в России. 
+            <p class="place__paragraph-element">Алтай — одно из красивейших мест в России. 
               В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p>
             <p>Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
@@ -106,7 +107,7 @@
           </div>
           <img class="place__image" src="./images/place-winter-baikal.jpg" alt="winter-baikal">
           <div class="place__paragraph">
-            <p>Всем известен Байкал как крупнейшее озеро 
+            <p class="place__paragraph-element">Всем известен Байкал как крупнейшее озеро 
               в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
             <p>Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя 
               к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
@@ -121,7 +122,7 @@
           </div>
           <img class="place__image" src="./images/place-karelia.jpg" alt="karelia">
           <div class="place__paragraph">
-            <p>Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. 
+            <p class="place__paragraph-element">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. 
               В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
@@ -130,9 +131,10 @@
 
       <section class="cover">
         <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+          <img src="./images/cover-trains.jpg" alt="trains" class="cover__background">
           <h2 class="cover__title">До Байкала &laquo;на собаках&raquo;</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
-          <img src="./images/cover-trains.jpg" alt="trains" class="cover__background">
+          
         </a>
       </section>
       
@@ -148,6 +150,6 @@
       </footer>
 
     </div>
-
+  </main>
 </body>
 </html>

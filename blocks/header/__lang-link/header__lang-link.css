@@ -1,3 +1,4 @@
+
 .header__lang-link {
     text-decoration: none;
     color: #ffffff;
@@ -5,4 +6,12 @@
     margin-left: 18px;
     font-size: 1.5em;
     line-height: 1.6em;
+}
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        font-size: 18px;
+    }
 }

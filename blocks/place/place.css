@@ -4,6 +4,7 @@
 @import url(../place/__website/place__website.css);
 @import url(../place/__website-link/place__website-link.css);
 @import url(../place/__website-paragraph/place__website-paragraph.css);
+@import url(../place/__paragraph-element/place__paragraph-element.css);
 .place {
     display: grid;
     grid-template-columns: 1fr 0.95fr;

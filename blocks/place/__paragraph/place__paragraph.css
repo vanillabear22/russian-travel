@@ -1,13 +1,16 @@
 .place__paragraph  {
     font-style: normal;
-    font-weight: 350;
-    font-size: 1.0em;
+    font-weight: normal;
+    font-size: 18px;
     line-height: 1.67;
     margin: 0;
     
 }
-.place__paragraph p:first-of-type {
-    margin-top: 0;
+
+@media screen and (max-width: 1279px) {
+    .place__paragraph {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 767px) {
