@@ -6,6 +6,7 @@
     text-decoration-line: underline;
     opacity: 0.9;
     color: #FFFFFF;   
+    
 }
 .place__website-link:hover {
     opacity: 0.8;
