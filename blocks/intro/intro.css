@@ -4,7 +4,7 @@
 @import url(../intro/__list-value/intro__list-value.css);
 .intro {
     margin-top: 92px;
-    margin-left: 10%;
+    margin-left: 148px;
     max-width: 690px;
     color: #FFFFFF;
 }
@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1279px) {
     .intro {
-        width: 690px; /* В МАКЕТЕ же вроде 690px так же ширина как и на 1240 */
+        margin-left: 48px; /* так это не ширина а левый отступ неправильный был) надеюсь теперь правльно */
     }
 }
 @media screen and (max-width: 1023px) {

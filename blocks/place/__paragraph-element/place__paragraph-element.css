@@ -1,5 +1,7 @@
 .place__paragraph-element {
     margin: 0;
+    padding: 0;
+    margin-top: 24px;
 }
 .place__paragraph-element:first-of-type {
     margin-top: 0;
