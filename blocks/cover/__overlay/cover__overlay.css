@@ -23,8 +23,8 @@
     opacity: 0.3;
     z-index: -1;
     transition: opacity 200ms ease-in-out;
+    
   }
-
   .cover__overlay:hover:before {
     opacity: 0.8;
   }
@@ -37,11 +37,14 @@
 @media screen and (max-width: 1023px) {
     .cover__overlay {
         min-height: 480px;
+        padding-top: 1px;
+        padding-bottom: 72px;
+
     }
 }
 @media screen and (max-width: 767px) {
     .cover__overlay {
-        padding: 70px 40px;
+        padding: 33px 0;
         min-height: 200px;
     }
 }
